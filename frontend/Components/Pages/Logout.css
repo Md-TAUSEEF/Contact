@@ -1,0 +1,28 @@
+.logout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+.logout-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/*  Responsive styles */
+@media (max-width: 768px) {
+  .logout-container h2 {
+    font-size: 1.2rem;
+    color: #444;
+  }
+}
+
+@media (max-width: 480px) {
+  .logout-container h2 {
+    font-size: 1rem;
+    color: #555;
+  }
+}
