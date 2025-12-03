@@ -4,7 +4,6 @@ import Contact from "../Components/Pages/Contact";
 import Service from "../Components/Pages/ServicePage";
 import Login from "../Components/Pages/Login";
 import Registor from "../Components/Pages/Register";
-import Toggilemode from "../Components/Modes/lightmode";
 import About from "../Components/Pages/About";
 import "../src/App.css"
 import Navbar from "../Components/Pages/Navbar";
@@ -27,7 +26,6 @@ function App() {
 
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Registor/>}/>
-        <Route path="/toggile" element={<Toggilemode/>}/>
         <Route path="/logout" element={<Logout/>}/>
 
         <Route path="/admin" element={<Adminlayout/>}>

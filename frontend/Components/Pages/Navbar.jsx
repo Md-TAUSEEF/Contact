@@ -20,7 +20,6 @@ function Navbar() {
       <div className="nav_mid">
 
         <div className="nav_midleft">
-          <li><Link to={"/"}>{user?.msg?.username || "Guest"}</Link></li>
           <li><Link to="/"><FaHome /> Home</Link></li>
           <li><Link to="/contact"><FaPhone /> Contact</Link></li>
           <li><Link to="/service"><FaServicestack /> Service</Link></li>
@@ -44,7 +43,7 @@ function Navbar() {
               </li>
             </>
           )}
-          <li><Link to="/toggle">ThemeToggle</Link></li>
+    
         </div>
 
       </div>

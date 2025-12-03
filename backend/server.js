@@ -27,7 +27,7 @@ app.use("/api/form", contact_Router);
 app.use("/api/admin", admin_Router);
 
 // Serve frontend
-app.use(express.static(path.join(__dirname1, "/frontend /dist")));
+app.use(express.static(path.join(__dirname1, "/frontend/dist")));
 
 // catch-all route for SPA
 app.get("/*", (req, res) => {
